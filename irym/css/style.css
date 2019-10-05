@@ -57,11 +57,11 @@ body {
     "Malgun Gothic", sans-serif;
   -webkit-overflow-scrolling: touch;
   color: #555;
-  background: #fff000;
+  background: #00a8ff;
   transition: background 0.5s;
 }
 body[data-char="yeongmin"] {
-  background: #ff7200;
+  background: #ff8585;
 }
 
 /* world */
@@ -126,6 +126,47 @@ body[data-char="yeongmin"] {
 .wall-title {
   font-size: 5rem;
 }
+.wall-flex {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.wall-flex a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 5vw;
+  background: #00a8ff;
+  padding: 1vw;
+  border-radius: 1vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.wall-flex a:hover,
+.wall-flex a:active {
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+}
+.wall img,
+.wall video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+img.lazy {
+  opacity: 0.1;
+  -webkit-will-change: opacity;
+  will-change: opacity;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+img.lazy.loaded {
+  opacity: 1;
+}
 .progress-bar-con {
   position: fixed;
   left: 0;
@@ -138,7 +179,10 @@ body[data-char="yeongmin"] {
 .progress-bar {
   width: 0;
   height: 100%;
-  background: #00a8ff;
+  background: #ff8585;
+}
+body[data-char="yeongmin"] .progress-bar {
+  background-color: #00a8ff;
 }
 
 /* character */
