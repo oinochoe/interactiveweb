@@ -144,12 +144,12 @@ body[data-char="irang"] {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
 }
-img.lazy-image {
+img.lazy {
   opacity: 0.1;
   will-change: opacity;
   transition: all 0.3s;
 }
-img.lazy-image.loaded {
+img.lazy.loaded {
   opacity: 1;
 }
 .progress-bar-con {
