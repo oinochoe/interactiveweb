@@ -181,7 +181,7 @@ img.lazy.loaded {
   height: 100%;
   background: #ff8585;
 }
-body[data-char="yeongmin"] .progress-bar {
+body[data-char="irang"] .progress-bar {
   background-color: #00a8ff;
 }
 
@@ -313,42 +313,42 @@ body[data-char="yeongmin"] .progress-bar {
   animation: ani-running-arm 0.2s alternate infinite linear;
 }
 
-/* character images[yeongmin] */
+/* character images[irang] */
 .character-head-face.face-front {
-  background-image: url("../images/yeongmin_head_front.png");
+  background-image: url("../images/irang_head_front.png");
 }
 .character-head-face.face-back {
-  background-image: url("../images/yeongmin_head_back.png");
+  background-image: url("../images/irang_head_back.png");
 }
 .character-torso-face.face-front {
-  background-image: url("../images/yeongmin_body_front.png");
+  background-image: url("../images/irang_body_front.png");
 }
 .character-torso-face.face-back {
-  background-image: url("../images/yeongmin_body_back.png");
+  background-image: url("../images/irang_body_back.png");
 }
 .character-arm-right .face-front {
-  background-image: url("../images/yeongmin_arm_0_front.png");
+  background-image: url("../images/irang_arm_0_front.png");
 }
 .character-arm-right .face-back {
-  background-image: url("../images/yeongmin_arm_1_back.png");
+  background-image: url("../images/irang_arm_1_back.png");
 }
 .character-arm-left .face-front {
-  background-image: url("../images/yeongmin_arm_1_front.png");
+  background-image: url("../images/irang_arm_1_front.png");
 }
 .character-arm-left .face-back {
-  background-image: url("../images/yeongmin_arm_0_back.png");
+  background-image: url("../images/irang_arm_0_back.png");
 }
 .character-leg-right .face-front {
-  background-image: url("../images/yeongmin_leg_0.png");
+  background-image: url("../images/irang_leg_0.png");
 }
 .character-leg-right .face-back {
-  background-image: url("../images/yeongmin_leg_1.png");
+  background-image: url("../images/irang_leg_1.png");
 }
 .character-leg-left .face-front {
-  background-image: url("../images/yeongmin_leg_1.png");
+  background-image: url("../images/irang_leg_1.png");
 }
 .character-leg-left .face-back {
-  background-image: url("../images/yeongmin_leg_0.png");
+  background-image: url("../images/irang_leg_0.png");
 }
 
 /* pos(right, top) chracter selectors */
@@ -373,56 +373,56 @@ body[data-char="yeongmin"] .progress-bar {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-.select-character-btn-yeongmin {
-  background-image: url("../images/yeongmin_head_front.png");
-  background-size: 36px auto;
-}
 .select-character-btn-irang {
   background-image: url("../images/irang_head_front.png");
+  background-size: 36px auto;
+}
+.select-character-btn-yeongmin {
+  background-image: url("../images/yeongmin_head_front.png");
   opacity: 0.5;
 }
-body[data-char="irang"] .select-character-btn-yeongmin {
+body[data-char="yeongmin"] .select-character-btn-irang {
   opacity: 0.5;
 }
-body[data-char="yeongmin"] .select-character-btn-yeongmin,
-body[data-char="irang"] .select-character-btn-irang {
+body[data-char="irang"] .select-character-btn-irang,
+body[data-char="yeongmin"] .select-character-btn-yeongmin {
   opacity: 1;
 }
 
-/* image customizing [irang] */
-body[data-char="irang"] .character-head-face.face-front {
-  background-image: url("../images/irang_head_front.png");
+/* image customizing [yeongmin] */
+body[data-char="yeongmin"] .character-head-face.face-front {
+  background-image: url("../images/yeongmin_head_front.png");
 }
-body[data-char="irang"] .character-head-face.face-back {
-  background-image: url("../images/irang_head_back.png");
+body[data-char="yeongmin"] .character-head-face.face-back {
+  background-image: url("../images/yeongmin_head_back.png");
 }
-body[data-char="irang"] .character-torso-face.face-front {
-  background-image: url("../images/irang_body_front.png");
+body[data-char="yeongmin"] .character-torso-face.face-front {
+  background-image: url("../images/yeongmin_body_front.png");
 }
-body[data-char="irang"] .character-torso-face.face-back {
-  background-image: url("../images/irang_body_back.png");
+body[data-char="yeongmin"] .character-torso-face.face-back {
+  background-image: url("../images/yeongmin_body_back.png");
 }
-body[data-char="irang"] .character-arm-right .face-front {
-  background-image: url("../images/irang_arm_0_front.png");
+body[data-char="yeongmin"] .character-arm-right .face-front {
+  background-image: url("../images/yeongmin_arm_0_front.png");
 }
-body[data-char="irang"] .character-arm-right .face-back {
-  background-image: url("../images/irang_arm_1_back.png");
+body[data-char="yeongmin"] .character-arm-right .face-back {
+  background-image: url("../images/yeongmin_arm_1_back.png");
 }
-body[data-char="irang"] .character-arm-left .face-front {
-  background-image: url("../images/irang_arm_1_front.png");
+body[data-char="yeongmin"] .character-arm-left .face-front {
+  background-image: url("../images/yeongmin_arm_1_front.png");
 }
-body[data-char="irang"] .character-arm-left .face-back {
-  background-image: url("../images/irang_arm_0_back.png");
+body[data-char="yeongmin"] .character-arm-left .face-back {
+  background-image: url("../images/yeongmin_arm_0_back.png");
 }
-body[data-char="irang"] .character-leg-right .face-front {
-  background-image: url("../images/irang_leg_0.png");
+body[data-char="yeongmin"] .character-leg-right .face-front {
+  background-image: url("../images/yeongmin_leg_0.png");
 }
-body[data-char="irang"] .character-leg-right .face-back {
-  background-image: url("../images/irang_leg_1.png");
+body[data-char="yeongmin"] .character-leg-right .face-back {
+  background-image: url("../images/yeongmin_leg_1.png");
 }
-body[data-char="irang"] .character-leg-left .face-front {
-  background-image: url("../images/irang_leg_1.png");
+body[data-char="yeongmin"] .character-leg-left .face-front {
+  background-image: url("../images/yeongmin_leg_1.png");
 }
-body[data-char="irang"] .character-leg-left .face-back {
-  background-image: url("../images/irang_leg_0.png");
+body[data-char="yeongmin"] .character-leg-left .face-back {
+  background-image: url("../images/yeongmin_leg_0.png");
 }
