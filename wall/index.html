@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Irang&amp;Yeongmin</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div class="progress-bar-con">
+      <div class="progress-bar"></div>
+    </div>
+    <div class="select-character">
+      <button
+        class="select-character-btn select-character-btn-yeongmin"
+        data-char="yeongmin"
+      ></button>
+      <button
+        class="select-character-btn select-character-btn-irang"
+        data-char="irang"
+      ></button>
+    </div>
+
+    <div class="world">
+      <div class="stage">
+        <div class="house">
+          <section class="wall wall-left">
+            <img src="./images/wallpaper_left.jpg" alt="" />
+          </section>
+          <section class="wall wall-right">
+            <img src="./images/wallpaper_right.jpg" alt="" />
+          </section>
+          <section class="wall wall-front wall-front-a">
+            <div class="wall-content">
+              <img src="./images/img_01.jpg" alt="" />
+            </div>
+          </section>
+          <section class="wall wall-front wall-front-b">
+            <div class="wall-content">
+              <img src="./images/img_02.jpg" alt="" />
+            </div>
+          </section>
+          <section class="wall wall-front wall-front-c">
+            <div class="wall-content">
+              <video autoplay muted loop playsinline>
+                <source src="./images/happy.webm" type="video/webm" />
+                <source src="./images/happy.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </section>
+          <section class="wall wall-front wall-front-d">
+            <div class="wall-content">
+              <div class="wall-content">
+                <img src="./images/img_03.jpg" alt="" />
+              </div>
+            </div>
+          </section>
+          <section class="wall wall-front wall-front-e">
+            <div class="wall-content">
+              <video autoplay muted loop playsinline>
+                <source src="./images/happy2.webm" type="video/webm" />
+                <source src="./images/happy2.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </section>
+          <section class="wall wall-front wall-front-f">
+            <div class="wall-content">
+              <h2 class="wall-title">
+                <img src="./images/img_04.jpg" alt="" />
+              </h2>
+            </div>
+          </section>
+          <section class="wall wall-front wall-front-g">
+            <div class="wall-content">
+              <h2 class="wall-title">
+                <img src="./images/img_05.jpg" alt="" />
+              </h2>
+            </div>
+          </section>
+          <section class="wall wall-front wall-front-h">
+            <div class="wall-content">
+              <h2 class="wall-title">
+                <img src="./images/img_06.jpg" alt="" />
+              </h2>
+            </div>
+          </section>
+          <section class="wall wall-front wall-front-i">
+            <div class="wall-content">
+              <h2 class="wall-title">
+                <img src="./images/img_07.jpg" alt="" />
+              </h2>
+            </div>
+          </section>
+          <section class="wall wall-front wall-front-j">
+            <div class="wall-flex">
+              <a href="http://blog.irangyeongmin.com/" target="_blank">
+                BLOG
+              </a>
+              <a href="https://oinochoe.github.io/portfolio/" target="_blank">
+                PORTFOLIO
+              </a>
+              <a href="https://frontdev.tistory.com/" target="_blank">
+                Tistory
+              </a>
+            </div>
+          </section>
+        </div>
+        <!--// house -->
+      </div>
+      <!--// stage -->
+    </div>
+    <!--// world -->
+
+    <script src="js/Character.min.js"></script>
+    <script src="js/wall3d.min.js"></script>
+    <script>
+      (function() {
+        const useragent = window.navigator.userAgent.toLowerCase();
+        if (
+          useragent.indexOf("chrome") < 0 &&
+          useragent.indexOf("safari") < 0
+        ) {
+          document.body.style.cssText = "height: auto";
+          document.body.innerHTML =
+            "본 사이트는 safari 및 chrome 이외에는 제대로 나오지 않을 수 있습니다. 해당 브라우저를 사용해 주세요.";
+        }
+
+        // create chracter
+        new Character({
+          xPos: 50,
+          speed: Math.random() * 0.5 + 0.2
+        });
+        document.querySelector(".select-character-btn-irang").click();
+      })();
+    </script>
+  </body>
+</html>
