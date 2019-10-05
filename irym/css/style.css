@@ -63,7 +63,14 @@ body {
 body[data-char="yeongmin"] {
   background: #ff8585;
 }
-
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: #00a8ff;
+  text-decoration: underline;
+}
 /* world */
 .world {
   position: fixed;
@@ -125,6 +132,7 @@ body[data-char="yeongmin"] {
 }
 .wall-title {
   font-size: 5rem;
+  word-break: keep-all;
 }
 .wall-flex {
   display: flex;

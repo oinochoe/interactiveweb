@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>3D wall</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta content="이랑이와 영민이의 공간입니다." name="description" />
+    <meta content="./images/img_01.jpg" property="og:image" />
+    <meta content="website" property="og:type" />
+    <title>이랑이와 영민이의 홈</title>
+    <link rel="stylesheet" href="css/reset.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
   </head>
   <body>
     <div class="progress-bar-con">
@@ -30,28 +34,28 @@
           <section class="wall wall-right"></section>
           <section class="wall wall-front wall-front-a">
             <div class="wall-content">
-              글자만 씀
+              <h2 class="wall-title">
+                안녕하세요.
+              </h2>
             </div>
           </section>
           <section class="wall wall-front wall-front-b">
             <div class="wall-content">
-              빠르지?
+              <h2 class="wall-title">
+                이랑이와 영민이의 홈입니다.
+              </h2>
             </div>
           </section>
           <section class="wall wall-front wall-front-c">
             <div class="wall-content">
-              <video
-                autoplay
-                muted
-                loop
-                playsinline
-                loading="lazy"
-                preload="none"
-                poster="./images/img_07.jpg"
-              >
-                <source src="./images/happy.webm" type="video/webm" />
-                <source src="./images/happy.mp4" type="video/mp4" />
-              </video>
+              <h2 class="wall-title wall-flex">
+                <a
+                  href="https://oinochoe.github.io/interactiveweb/wall/"
+                  target="_blank"
+                >
+                  윈도우 크롬 사용하시는 분만 누르세요!
+                </a>
+              </h2>
             </div>
           </section>
           <section class="wall wall-front wall-front-d">
@@ -69,15 +73,13 @@
           </section>
         </div>
         <!--// house -->
-
-        <!-- 캐릭터 놓이는 곳 -->
       </div>
       <!--// stage -->
     </div>
     <!--// world -->
 
-    <script src="js/Character.js"></script>
-    <script src="js/wall3d.js"></script>
+    <script src="js/Character.min.js"></script>
+    <script src="js/wall3d.min.js"></script>
     <script>
       (function() {
         const useragent = window.navigator.userAgent.toLowerCase();
