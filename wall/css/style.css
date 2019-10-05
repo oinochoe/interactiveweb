@@ -95,6 +95,8 @@ body[data-char="irang"] {
   transform: translate3d(0, 0, -1000vw);
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  -webkit-will-change: transform;
+  will-change: transform;
 }
 .wall {
   position: absolute;
@@ -103,16 +105,22 @@ body[data-char="irang"] {
   width: 100vw;
   height: 100vh;
   background: rgba(255, 255, 255, 0.8);
+  -webkit-will-change: transform;
+  will-change: transform;
 }
 .wall-left {
   width: 2400vw;
   background: #f8f8f8;
+  -webkit-will-change: transform;
+  will-change: transform;
   -webkit-transform: rotateY(90deg) translate3d(0, 0, -1100vw);
   transform: rotateY(90deg) translate3d(0, 0, -1100vw);
 }
 .wall-right {
   width: 2400vw;
   background: #f8f8f8;
+  -webkit-will-change: transform;
+  will-change: transform;
   -webkit-transform: rotateY(90deg) translate3d(0, 0, -1200vw);
   transform: rotateY(90deg) translate3d(0, 0, -1200vw);
 }
@@ -231,6 +239,8 @@ body[data-char="irang"] .progress-bar {
   bottom: 5%;
   width: 12vw;
   height: calc(12vw * 1.4135);
+  -webkit-will-change: transform;
+  will-change: transform;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
@@ -268,6 +278,8 @@ body[data-char="irang"] .progress-bar {
   background-size: cover;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  -webkit-will-change: transform;
+  will-change: transform;
 }
 .character-face.face-back {
   -webkit-transform: rotateY(180deg);
@@ -281,8 +293,8 @@ body[data-char="irang"] .progress-bar {
   height: calc(750 / 1340 * 100%);
   -webkit-transform-origin: center bottom;
   transform-origin: center bottom;
-  -webkit-will-change: auto;
-  will-change: auto;
+  -webkit-will-change: transform;
+  will-change: transform;
   -webkit-animation: ani-head 0.6s infinite alternate
     cubic-bezier(0.46, 0.18, 0.66, 0.93);
   animation: ani-head 0.6s infinite alternate
