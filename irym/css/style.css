@@ -157,7 +157,7 @@ body[data-char="yeongmin"] {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
 }
-img.lazy {
+/* img.lazy {
   opacity: 0.1;
   -webkit-will-change: opacity;
   will-change: opacity;
@@ -166,7 +166,7 @@ img.lazy {
 }
 img.lazy.loaded {
   opacity: 1;
-}
+} */
 .progress-bar-con {
   position: fixed;
   left: 0;
