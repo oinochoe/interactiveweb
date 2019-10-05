@@ -10,18 +10,14 @@
     maxScrollValue = document.body.offsetHeight - window.innerHeight;
   }
 
-  window.addEventListener(
-    "wheel",
-    function() {
-      const scrollPer = pageYOffset / maxScrollValue;
-      const zMove = scrollPer * 2080 - 900;
-      houseElem.style.transform = "translateZ(" + zMove + "vw)";
+  window.addEventListener("scroll", function() {
+    const scrollPer = pageYOffset / maxScrollValue;
+    const zMove = scrollPer * 2080 - 900;
+    houseElem.style.transform = "translateZ(" + zMove + "vw)";
 
-      // progress bar
-      barElem.style.width = scrollPer * 100 + "%";
-    },
-    { capture: false, passive: true }
-  );
+    // progress bar
+    barElem.style.width = scrollPer * 100 + "%";
+  });
 
   window.addEventListener("mousemove", function(e) {
     mousePos.x = -1 + (e.clientX / window.innerWidth) * 2;
