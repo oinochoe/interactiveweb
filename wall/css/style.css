@@ -24,7 +24,7 @@
 }
 
 body {
-  height: 2000vw;
+  height: 1000vw;
   font-family: "Apple SD Gothic Neo", "Roboto", "Noto Sans KR", NanumGothic,
     "Malgun Gothic", sans-serif;
   -webkit-overflow-scrolling: touch;
@@ -55,7 +55,7 @@ body[data-char="irang"] {
 .house {
   width: 100vw;
   height: 100vh;
-  transform: translateZ(-1990vw);
+  transform: translateZ(-1000vw);
   transform-style: preserve-3d;
 }
 .wall {
@@ -67,44 +67,44 @@ body[data-char="irang"] {
   background: rgba(255, 255, 255, 0.8);
 }
 .wall-left {
-  width: 4000vw;
+  width: 2400vw;
   background: #f8f8f8;
-  transform: rotateY(90deg) translateZ(-2000vw);
+  transform: rotateY(90deg) translateZ(-1100vw);
 }
 .wall-right {
-  width: 4000vw;
+  width: 2400vw;
   background: #f8f8f8;
-  transform: rotateY(90deg) translateZ(-1900vw);
+  transform: rotateY(90deg) translateZ(-1200vw);
 }
 .wall-front-a {
-  transform: translateZ(1900vw);
+  transform: translateZ(600vw);
 }
 .wall-front-b {
-  transform: translateZ(1400vw);
-}
-.wall-front-c {
-  transform: translateZ(900vw);
-}
-.wall-front-d {
   transform: translateZ(400vw);
 }
+.wall-front-c {
+  transform: translateZ(200vw);
+}
+.wall-front-d {
+  transform: translateZ(0vw);
+}
 .wall-front-e {
-  transform: translateZ(-100vw);
+  transform: translateZ(-200vw);
 }
 .wall-front-f {
-  transform: translateZ(-600vw);
+  transform: translateZ(-400vw);
 }
 .wall-front-g {
-  transform: translateZ(-800vw);
+  transform: translateZ(-600vw);
 }
 .wall-front-h {
-  transform: translateZ(-1100vw);
+  transform: translateZ(-800vw);
 }
 .wall-front-i {
-  transform: translateZ(-1400vw);
+  transform: translateZ(-1000vw);
 }
 .wall-front-j {
-  transform: translateZ(-2000vw);
+  transform: translateZ(-1200vw);
 }
 .wall-content {
   display: flex;
