@@ -77,25 +77,25 @@ body[data-char="irang"] {
   transform: rotateY(90deg) translateZ(-1200vw);
 }
 .wall-front-a {
-  transform: translateZ(600vw);
+  transform: translateZ(800vw);
 }
 .wall-front-b {
-  transform: translateZ(400vw);
+  transform: translateZ(500vw);
 }
 .wall-front-c {
-  transform: translateZ(200vw);
+  transform: translateZ(300vw);
 }
 .wall-front-d {
-  transform: translateZ(0vw);
+  transform: translateZ(50vw);
 }
 .wall-front-e {
-  transform: translateZ(-200vw);
+  transform: translateZ(-100vw);
 }
 .wall-front-f {
-  transform: translateZ(-400vw);
+  transform: translateZ(-300vw);
 }
 .wall-front-g {
-  transform: translateZ(-600vw);
+  transform: translateZ(-500vw);
 }
 .wall-front-h {
   transform: translateZ(-800vw);
